@@ -1,10 +1,12 @@
 {
     "models": [
-        "https://huggingface.co/NoCrypt/expermental_models/resolve/main/shux7.safetensors:enabled"
+        "https://huggingface.co/NoCrypt/expermental_models/resolve/main/shux7.safetensors"
     ],
     "vae": [
-        "https://huggingface.co/NoCrypt/resources/resolve/main/VAE/any.vae.safetensors:enabled"
+        "https://huggingface.co/NoCrypt/resources/resolve/main/VAE/any.vae.safetensors"
     ],
     "lora": [],
-    "extensions": []
+    "extensions": [],
+    "enabled": ["https://huggingface.co/NoCrypt/expermental_models/resolve/main/shux7.safetensors","https://huggingface.co/NoCrypt/resources/resolve/main/VAE/any.vae.safetensors"],
+    "keep": []
 }
